@@ -12,8 +12,10 @@ package numeronatural;
  */
 public class NumeroNatural {
     private int n;
-
-    /**
+    public int getN(){
+        return n;
+    }
+        /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
